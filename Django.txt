@@ -2,3 +2,18 @@ Tạo mới 1 project:
 	- django-admin startproject <name-project>
 Chạy server:
 	- python manage.py runserver
+tạo 1 app mới: 
+	- python manage.py startapp <name>
+Config database: mysite/settings.py
+	DATABASES = {
+		ENGINE: 'django.db.backends.sqlite3', 
+				'django.db.backends.postgresql', 
+				'django.db.backends.mysql', 
+				'django.db.backends.oracle'
+		NAME: name database
+		'NAME': 'xe',
+		'USER': 'a_user',
+		'PASSWORD': 'a_password',
+		'HOST': '',
+		'PORT': '',
+	}
