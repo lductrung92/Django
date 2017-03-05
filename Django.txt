@@ -1,0 +1,4 @@
+Tạo mới 1 project:
+	- django-admin startproject <name-project>
+Chạy server:
+	- python manage.py runserver
